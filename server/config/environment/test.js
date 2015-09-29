@@ -5,6 +5,6 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/angularfullstack2-test'
+    uri: 'mongodb://localhost/node-firebase-redis-test'
   }
 };

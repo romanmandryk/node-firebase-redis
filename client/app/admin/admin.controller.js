@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularFullstack2App')
+angular.module('nodeFirebaseRedis')
   .controller('AdminCtrl', function ($scope, $http, Auth, User) {
 
     // Use the User $resource to fetch all users

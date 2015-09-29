@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularFullstack2App')
+angular.module('nodeFirebaseRedis')
   .config(function ($stateProvider) {
     $stateProvider
       .state('login', {

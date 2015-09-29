@@ -1,5 +1,5 @@
 {
-  "name": "angular-fullstack2",
+  "name": "node-firebase-redis",
   "version": "0.0.0",
   "dependencies": {
     "angular": ">=1.2.*",

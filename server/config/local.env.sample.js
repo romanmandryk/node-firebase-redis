@@ -7,7 +7,8 @@
 
 module.exports = {
   DOMAIN:           'http://localhost:9000',
-  SESSION_SECRET:   'angularfullstack2-secret',
+  SESSION_SECRET:   'secret',
+  FIREBASE_URI: "your firebase uri",
 
   FACEBOOK_ID:      'app-id',
   FACEBOOK_SECRET:  'secret',

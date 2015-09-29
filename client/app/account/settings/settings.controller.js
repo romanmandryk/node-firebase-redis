@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularFullstack2App')
+angular.module('nodeFirebaseRedis')
   .controller('SettingsCtrl', function ($scope, User, Auth) {
     $scope.errors = {};
 

@@ -7,6 +7,9 @@ module.exports = {
   mongo: {
     uri: 'mongodb://localhost/angularfullstack2-dev'
   },
+  firebase: {
+    uri: process.env.FIREBASE_URI
+  },
 
   seedDB: true
 };

@@ -3,7 +3,7 @@
 /**
  * Removes server error when user updates input
  */
-angular.module('angularFullstack2App')
+angular.module('nodeFirebaseRedis')
   .directive('mongooseError', function () {
     return {
       restrict: 'A',

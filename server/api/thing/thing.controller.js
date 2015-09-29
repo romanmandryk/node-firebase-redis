@@ -10,13 +10,18 @@
 'use strict';
 
 var _ = require('lodash');
-var Thing = require('./thing.model');
-
+var fbStore = require('../../components/fbStore');
+var redisStore = require('../../components/redisStore');
+var things = fbStore.child('things');
+things.on('child_added', function(snapshot) {
+  console.log('child added');
+  console.log(snapshot.val());
+});
 // Get list of things
 exports.index = function(req, res) {
-  Thing.find(function (err, things) {
-    if(err) { return handleError(res, err); }
-    return res.json(200, things);
+  redisStore.get('things',function(err, data){
+    if (err || !data) { return res.send(404); }
+    return res.json(data);
   });
 };
 

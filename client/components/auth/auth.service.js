@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularFullstack2App')
+angular.module('nodeFirebaseRedis')
   .factory('Auth', function Auth($location, $rootScope, $http, User, $cookieStore, $q) {
     var currentUser = {};
     if($cookieStore.get('token')) {

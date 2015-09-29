@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularFullstack2App')
+angular.module('nodeFirebaseRedis')
   .factory('Modal', function ($rootScope, $modal) {
     /**
      * Opens a modal
